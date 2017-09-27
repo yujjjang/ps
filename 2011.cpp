@@ -41,6 +41,7 @@ int Solving(vector<int>& v, int idx, vector<int>& chk){
   cache[idx] = sum%1000000;
   return sum%1000000;
 }
+
 int main(){
   string num;
   cin >> num;
